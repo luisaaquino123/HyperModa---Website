@@ -509,6 +509,44 @@
     padding: 20px;
     margin: 30px auto;
 }
+/* MOBILE FIX - EDITORIAL CONCEPT */
+    @MEDIA (max-width: 600px) {
+      .content-box { 
+        width: 94%;
+        padding: 15px;
+        margin: 20px auto;
+        box-sizing: border-box;
+      }
+      .inner-container {
+       display: flex;
+        flex-direction: column;
+        width: 100%; 
+        gap: 15px;
+      }
+      .inner-box { 
+        width: 100%;
+        padding: 10px;
+        min-width: 0px;
+        box-sizing: border-box;
+      }
+      .inner-box p 
+      .content-box p { 
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.3px;
+        padding: 10px 0;
+        overflow-wrap: break-word;
+      }
+      .content-box h2
+      .content-box h3 {
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        margin: 0;
+      }
+      }
 /* WEEK 12 - FIX 1: RESPONSIVE BANNER */
 
 @media (max-width: 600px) {
