@@ -678,3 +678,72 @@
         background-position: center top;
     }
 }
+/* HYPERMODA SUBSCRIPTION */
+
+.subscribe-section {
+    background-color: #f0eee9;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.subscribe-section .subscribe-label {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #c22026;
+    padding: 0;
+}
+
+.subscribe-section h2 {
+    font-family: "Didot", serif;
+    font-size: clamp(40px, 6vw, 75px);
+    color: #000;
+    margin: 20px 0;
+}
+
+.subscribe-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    max-width: 500px;
+    margin: 0 auto 25px;
+    padding: 0;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.subscribe-form label {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.subscribe-form input {
+    padding: 14px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.subscribe-form button {
+    background-color: #c22026;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #8f151b;
+}
